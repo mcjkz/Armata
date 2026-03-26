@@ -22,10 +22,10 @@ class PrzesuwaneObrazy:
             # Uruchomiono normalnie (np. python menu.py)
             base_path = os.path.dirname(__file__)
 
-        # Ścieżki do plików czcionek (wcześniej: Font(file="czcionki\Stem-Bold.ttf"), itd.)
-        bold_font_path    = os.path.join(base_path, "czcionki", "Stem-Bold.ttf")
-        medium_font_path  = os.path.join(base_path, "czcionki", "Stem-Medium.otf")
-        regular_font_path = os.path.join(base_path, "czcionki", "Stem-Regular.ttf")
+        # Ścieżki do plików czcionek (wcześniej: Font(file="resources\fonts\Stem-Bold.ttf"), itd.)
+        bold_font_path    = os.path.join(base_path, "resources", "fonts", "Stem-Bold.ttf")
+        medium_font_path  = os.path.join(base_path, "resources", "fonts", "Stem-Medium.otf")
+        regular_font_path = os.path.join(base_path, "resources", "fonts", "Stem-Regular.ttf")
         cards_path = os.path.join(base_path, "resources", "cards")
 
         # Rejestracja czcionek:
